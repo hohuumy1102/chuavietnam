@@ -1,0 +1,53 @@
+body { font-family: 'Be Vietnam Pro', sans-serif; }
+
+body { font-size: 14px; color: #383838; line-height: 1.4; }
+
+a { -webkit-transition: all .3s ease-in-out; transition: all .3s ease-in-out; }
+a:hover { -webkit-transition: all .3s ease-in-out; transition: all .3s ease-in-out; color: #f4901e; text-decoration: none; }
+
+.form-control:focus { -webkit-box-shadow: unset; box-shadow: unset; }
+
+footer { background-color: #ffffff; }
+footer .footer-inner { padding: 40px 0 100px 0; }
+footer .logo { margin-bottom: 25px; }
+footer .description { line-height: 1.8; color: #383838; font-size: 14px; }
+footer .read-more { color: #383838; font-size: 14px; }
+footer .read-more:hover { color: #f4901e; }
+footer .copy-right { background-color: #96682d; color: #ffffff; font-size: 14px; line-height: 1; text-align: center; font-size: 400; padding: 14px 0; }
+footer .copy-right a { color: #ffffff; font-size: 400; font-size: 14px; line-height: 1; }
+
+.navbar .navbar-second { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; list-style-type: none; }
+.navbar .navbar-second li { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; position: relative; }
+.navbar .navbar-second li a { color: #383838; font-size: 13px; display: inline-block; }
+.navbar .navbar-second li .nav-link { padding: 0 1rem; }
+.navbar .navbar-second li::after { content: ""; position: absolute; top: 0; left: 100%; width: 1px; height: 100%; background-color: #cdcdcd; }
+.navbar .navbar-second li:last-child::after { display: none; }
+.navbar .navbar-collapse { width: 100%; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-align: end; -ms-flex-align: end; align-items: flex-end; }
+.navbar .navbar-nav { border-top: 1px solid #cdcdcd; padding-top: 0.25rem; }
+.navbar .navbar-nav .nav-item { margin-right: 40px; }
+.navbar .navbar-nav .nav-item a { color: #383838; font-size: 14px; text-transform: uppercase; font-weight: 700; }
+.navbar .navbar-nav .nav-item:last-child { margin-right: 0; }
+.navbar .navbar-nav .nav-item:hover a, .navbar .navbar-nav .nav-item:focus a { color: #f4901e; }
+.navbar .navbar-nav .nav-item.active a { color: #f4901e; }
+
+.pic { display: block; }
+.pic img { max-width: 100%; width: 100%; }
+
+.is-sp { display: none; }
+
+footer .widget .widget-title { font-size: 18px; font-weight: 700; color: #383838; margin-bottom: 15px; }
+footer .widget .list-contact { list-style-type: none; padding-left: 0; }
+footer .widget .list-contact .item-contact { position: relative; padding-left: 30px; color: #383838; margin-bottom: 15px; font-size: 14px; }
+footer .widget .list-contact .item-contact a { color: #383838; font-size: 14px; }
+footer .widget .list-contact .item-contact a:hover { color: #f4901e; }
+footer .widget .list-contact .item-contact .icon { position: absolute; top: 3px; left: 0; font-size: 20px; color: #f4901e; }
+footer .widget .tags .tag { font-size: 14px; line-height: 1; color: #383838; background-color: #f1f1f1; padding: .25rem 1rem; display: inline-block; border-radius: 1rem; margin: 0 .25rem .25rem 0; }
+footer .widget .socials { display: block; }
+footer .widget .socials .social { width: 36px; height: 36px; display: inline-block; border-radius: 50%; text-align: center; background-color: #bbbbbb; line-height: 36px; margin-right: 15px; color: #383838; }
+footer .widget .socials .social:last-child { margin-right: 0; }
+footer .widget .socials .social:hover { color: #ffffff; background-color: #f4901e; }
+footer .widget .form-email .input-group { background-color: #efefef; border-radius: .5rem; margin-bottom: 0 !important; }
+footer .widget .form-email .input-group .form-control { background-color: #efefef; border: 1px solid #efefef; font-size: 14px; border-radius: .5rem; padding-top: 10px; padding-bottom: 8px; line-height: 20px; height: auto; }
+footer .widget .form-email .input-group .btn-outline-secondary { background-color: #f4901e; border-color: #f4901e; border-radius: .5rem; color: #ffffff; position: relative; z-index: 3; }
+
+/*# sourceMappingURL=style.css.map */

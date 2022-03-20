@@ -1,0 +1,38 @@
+footer{
+    background-color: #ffffff;
+    .footer-inner{
+        padding: 40px 0 100px 0;
+    }
+    .logo{
+        margin-bottom: 25px;
+    }
+    .description{
+        line-height: 1.8;
+        color: $black;
+        font-size: 14px;
+    }
+    .read-more{
+        color: $black;
+        font-size: 14px;
+        &:hover{
+            color: $yellow;
+        }
+    }
+    .copy-right{
+        background-color: $bg_2;
+        color: #ffffff;
+        
+        font-size: 14px;
+        line-height: 1;
+        text-align: center;
+        font-size: 400;
+        padding: 14px 0;
+        a{
+            color: #ffffff;
+            font-size: 400;
+            font-size: 14px;
+            line-height: 1;
+        
+        }
+    }
+}

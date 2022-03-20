@@ -1,0 +1,13 @@
+body{
+    font-size: 14px;
+    color: $black;
+    line-height: 1.4;
+}
+a{
+    transition: all .3s ease-in-out;
+    &:hover{
+        transition: all .3s ease-in-out;
+        color: $yellow;
+        text-decoration: none;
+    }
+}
