@@ -1,0 +1,17 @@
+
+.section-typical{
+    .typical{
+        display: flex;
+        .pic{
+            flex: 0 0 40%;
+            max-width: 40%;
+            width: 100%;
+        }
+        .content{
+            flex: 0 0 60%;
+            max-width: 60%;
+            width: 100%;
+            
+        }
+    }
+}
